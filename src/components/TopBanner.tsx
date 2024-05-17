@@ -13,7 +13,7 @@ const TopBanner: FC<TopBannerProps> = ({ setIsViewed }) => {
 
   return (
     <div className="h-[42px] bg-[#FF7711]  flex items-center">
-      <div className=" max-w-screen-xl mx-auto w-full px-[10px] text-sm font-medium md:text-base md:font-semibold flex items-center justify-between">
+      <div className="container-style w-full px-[10px] text-sm font-medium md:text-base md:font-semibold flex items-center justify-between">
         <div className="flex items-center">
           기초가 탄탄한 엔지니어 교육
           <img className="w-[52px]" src={CLD} alt="CLD"></img>
