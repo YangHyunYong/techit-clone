@@ -1,7 +1,7 @@
 import { FC, useEffect, useState } from "react";
 import TopBanner from "./components/TopBanner";
 import Header from "./components/Header";
-import SlideBanner from "./components/SlideBanner";
+import SlideBanner from "./components/SliderBanner";
 
 const App: FC = () => {
   const [isViewed, setIsViewed] = useState<boolean>(false);
@@ -13,7 +13,7 @@ const App: FC = () => {
   }, []);
 
   return (
-    <div className="font-pretendard">
+    <div className="font-pretendard text-techit-gray-300">
       {!isViewed && <TopBanner setIsViewed={setIsViewed} />}
       <Header></Header>
       <SlideBanner></SlideBanner>
