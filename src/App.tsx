@@ -3,6 +3,7 @@ import TopBanner from "./components/TopBanner";
 import Header from "./components/Header";
 import SlideBanner from "./components/SliderBanner";
 import KdtSection from "./components/KdtSection";
+import ScheduleSection from "./components/ScheduleSection";
 
 const App: FC = () => {
   const [isViewed, setIsViewed] = useState<boolean>(false);
@@ -19,6 +20,7 @@ const App: FC = () => {
       <Header></Header>
       <SlideBanner></SlideBanner>
       <KdtSection></KdtSection>
+      <ScheduleSection></ScheduleSection>
     </div>
   );
 };
